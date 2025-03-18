@@ -1,0 +1,11 @@
+criar h1 personalizando links
+criar lista de 3 itens
+cada item um link
+1- GitHub
+2- canal do youtube
+3- site curso em vídeo
+"link <a>"
+style
+cor do link
+:visited
+

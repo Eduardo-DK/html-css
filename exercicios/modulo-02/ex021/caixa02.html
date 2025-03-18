@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: slategrey;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: lightslategray;
+            border: 10px;
+            margin: 2px;
+            padding: 10px;
+            text-align: center;
+            box-shadow: 3px 5px 9px 2px rgba(0, 0, 0, 0.582);
+        }
+
+        nav > a {
+            margin: 50px;
+            border: 5px solid rgb(53, 53, 53);
+            padding: 2px;
+            text-decoration: none;
+            background-color: rgb(53, 53, 53);
+            color: white;
+        }
+
+        main {
+            background-color: white;
+            border: 5px;
+            padding: 5px;
+            margin: 10px;
+            border-radius: 10px 10px 0px 0px;
+            box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.425);
+        }
+        
+        #noticias {
+            background-color: rgb(124, 123, 123);
+            margin: 10px;
+            text-align: justify;
+            padding: 1px 15px;
+        }
+
+        article > aside {
+            background-color: rgb(32, 32, 32);
+            color: white;
+        }
+
+        footer {
+          background-color: black;  
+          color: white;
+          text-align: center;
+          padding: 2px;         
+          font-size: 1.2em;
+          font-style: italic;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+            border-radius: 50%;
+            margin: 10px auto;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>menu do site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>esporte</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>documentario</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, voluptates et, ipsum quis veritatis itaque illum officia eos, totam magnam quasi fuga eligendi quos quidem. Reiciendis harum excepturi quasi distinctio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem porro minus consectetur voluptatem in exercitationem, pariatur ipsa ex dolor odio consequuntur sit quia repellat voluptatibus, laborum quae deserunt, ab libero! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam voluptas sequi fugiat quos esse inventore nobis provident, doloremque sint quam accusamus adipisci eius veritatis. Molestiae quam saepe tenetur expedita eligendi?</p>
+                <aside>
+                    <p>artigo escrito</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Site Desenvolvido</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

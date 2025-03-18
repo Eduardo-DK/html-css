@@ -1,0 +1,11 @@
+criar um html e um css
+criar um ID usando o "atributo":
+id="" dentro de uma tag
+em CSS usando o seletor
+"#" para identificar o id e o nome do ID
+/////////////////////////////
+criar class em HTML
+usando o atributo class=""
+em css usando o seletor:
+"." para identificar a class
+////////////////////////////////

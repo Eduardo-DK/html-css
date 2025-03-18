@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimidias</title>
+</head>
+<body>
+    <h1>imagens Dinamicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagen-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagen-m.png" type="image/png">
+        <img src="imagens/imagen-g.png" alt="imagen flexivel">
+    </picture>
+    <h1>agora aquivos de midia</h1>
+    <p>agora vamos tentar reproduzir um arquivo de audio</p>
+    <audio src="midia/musica-de-exemplo.mp3" controls></audio> <!-- MP3/MPEG WAV OGG-->
+
+    <audio preload="metadata" controls>
+        <source src="midia/musica-de-exemplo.mp3" type="audio/mpeg">
+        <source src="midia/musica-de-exemplo.ogg" type="audio/ogg">
+        <source src="midia/musica-de-exemplo.wav" type="audio/wav"> 
+        <p>caso não funcione você pode baixar o aquivo de audio</p>
+        <a href="midia/musica-de-exemplo.mp3" download="musica-de-exemplo" type="audio/mpeg">mpeg</a>     
+    </audio>
+    <a href="midia/musica-de-exemplo.mp3" download="midia/musica-de-exemplo.mp3">mp3</a>
+    <a href="midia/musica-de-exemplo.mp3" download="musica-de-exemplo.mp3">Clique aqui para baixar o áudio</a>
+</body>
+</html>

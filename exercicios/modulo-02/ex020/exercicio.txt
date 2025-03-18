@@ -1,0 +1,40 @@
+criar 3 <div>
+dentro de style add div
+dentro de div configurar
+display:
+background-color:
+borde:
+text-align:
+height:
+widht:
+///////////
+id pra cada uma das <div>
+usar a pseudo classe houver
+em style usar o atributo
+div:houver (quando passar o mouse em cima 
+ira fazer uma determinada ação)
+////////////////////////////////////////
+crie o arquivo html
+h1 	exemplo de houver
+p 	passe o mause em cima
+div 	passe o mouse aqui
+style
+div:houver {
+	color: red;
+}
+criar p dentro da div
+esconder o paragrafo dentro da div
+criar o sibolo div > p
+div > p
+div recebe p
+faça o p dentro da div n mostrar nada display none
+quando passar o mouse em cima da div
+mostrar o texto q tem dentro
+com houver e 
+div:hover > p 
+display: block
+
+
+
+
+
