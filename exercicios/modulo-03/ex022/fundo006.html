@@ -7,15 +7,23 @@
     <style>
         body {
             height: 100vh; /* altura */
-            background-color: black; /* Fundo */
+
+            /* background-color: black;  || Fundo 
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center top;
             background-repeat: no-repeat;
-            background-size: cover/* cobrir (vai cobrir a tela inteira) */;
+            background-size: covercobrir  || (vai cobrir a tela inteira) ;
+            background-attachment: scroll; anexo */
+
+            /* shorthand - background
+                color > image > position > repeat > [size] > attchment
+            */
+            background: black url('imagens/wallpaper002.jpg') center top no-repeat fixed;
+            background-size: cover; /* size ainda não funciona */
         }
         main {
             background-color: white; /* Fundo */
-            width: 400px;  /* largura */
+            max-width: 400px;  /* largura */
             padding: 10px; /* preenchimento */
             margin: auto; 
             border: 1px solid darkslateblue;
