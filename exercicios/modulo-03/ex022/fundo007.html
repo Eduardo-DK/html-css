@@ -6,12 +6,28 @@
     <title>alinhamento vertical</title>
     <style>
         #container {
-            height: 500px; /* altura */
-            
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+
+            position: relative;
+            height: 96vh; /* altura */
+            padding: 10px;
+            background-color: blue; 
         }
 
         #conteudo {
+            background-image: url('imagens/target001.png');
+            background-size: 100% 100%;
+
+            position: absolute;
             height: 200px; /* altura */
+            width: 400px; /* largura */
+            background-color: chartreuse;
+
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
