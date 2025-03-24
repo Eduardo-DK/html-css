@@ -15,17 +15,9 @@
             border: 4px solid black;
         }
 
-        tr.linha {            
-            background-color: gray;
-        }
-
         td {
             border: 1px solid black ;            
             padding: 5px;
-        }
-
-        td.dado {
-            background-color: red;
         }
     </style>
 </head>
@@ -39,9 +31,9 @@
                 TABLE DATA = dado da tabela
 
     -->
-    <!-- table>tr*4>td{A$}td{B$}td{C$} -->
+    <!-- table>tr*4>(td{A$}td{B$}td{C$}) -->
     <table> 
-        <tr class="linha"><!-- primeira linha -->
+        <tr><!-- primeira linha -->
             <td>A1</td>
             <td>B1</td>
             <td>C1</td>
@@ -53,7 +45,7 @@
         </tr>
         <tr>
             <td>A3</td>
-            <td class="dado">B3</td>
+            <td>B3</td>
             <td>C3</td>
         </tr>
         <tr>
